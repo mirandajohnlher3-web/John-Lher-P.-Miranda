@@ -1,0 +1,387 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: navy;
+}
+body{
+   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: navy;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: navy;
+    position: sticky;
+    top: 0;
+    background-color: white);
+    z-index: 1000;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.profile-card {
+  text-align: center;
+  padding: 100px;
+  border-radius: 15px;
+  width: 1250px;
+  margin: auto auto;
+  color: rgb(0, 0, 0);
+}
+.profile-card p {
+  max-width: 460px;
+  margin: 15px auto;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+}
+
+.profile-img {
+  width: 280px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 30%;
+  border: 3px solid navy; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skills-title {
+  background: navy;
+  width: 70%;
+  margin: 0 auto 30px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+.skills-title h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.cards {
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.card {
+  color: white;
+  padding: 25px;
+  min-height: 250px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.card-1 { background: navy }
+.card-2 { background: navy }
+.card-3 { background: navy}
+.card-4 { background: navy }
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .skills-title {
+    width: 100%;
+  }
+}
+.slider {
+  width: 100%;
+  overflow: hidden;      
+}
+
+.track {
+  display: flex;
+  transition: transform 0.7s ease-in-out;  
+}
+
+.slide {
+  min-width: 100%;        
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;      
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Education {
+  padding: 20px 100px;
+}
+
+.Education h1 {
+  text-align: center;
+  background-color: navy;
+  color: white;
+  font-size: 4rem;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0 0 20px 0;
+}
+
+.buttons button {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;             
+  background-color: rgb(64, 95, 160);
+  color: rgb(26, 24, 148);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 6px;
+  transition: all 0.3s;           
+}
+
+.buttons button:hover {
+  background-color: rgb(18, 57, 182);
+  color: #0a0a6e;
+  transform: scale(1.15);        
+}
+.awards-title {
+  text-align: center;
+  background-color: navy;
+  color: white;
+  font-size: 4rem;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 150px;
+}
+
+.awards {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.award {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.award:hover {
+  transform: scale(1.05);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+ 
+header {
+  background: linear-gradient(135deg, #4facfe, #00c6a7);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+ 
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+ 
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+ 
+.hobby {
+  background: navy;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+ 
+.hobby:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+ 
+.hobby h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f3f6;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 5px solid navy;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.badge {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.project h2 {
+  color: #2575fc;
+  margin-bottom: 8px;
+}
+
+.date {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 40px 60px;
+  background-color: navy;
+  text-align: center;
+  color: white;
+}
+
+footer h2 {
+  margin: 0 0 20px;
+  color: white;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+footer a {
+  margin: 0;
+  padding: 10px 16px;
+}
+
